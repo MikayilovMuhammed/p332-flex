@@ -1,0 +1,18 @@
+@import "./partials/global.css";
+
+
+section {
+    padding: 30px 0;
+}
+
+
+.section-item {
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    /* padding: 10px; */
+}
+

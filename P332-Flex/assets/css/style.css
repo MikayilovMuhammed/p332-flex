@@ -1,0 +1,26 @@
+@import "./partials/global.css";
+
+
+.blue, .red, .green {
+    width: 200px;
+    height: 200px;
+}
+
+.blue {
+    background-color: blue;
+    /* order: 1; */
+    /* align-self: flex-end; */
+}
+
+.red {
+    background-color: red;
+    /* order: 2; */
+    align-self: center;
+}
+
+.green {
+    background-color: green;
+    /* order: -2; */
+    align-self: flex-end;
+}
+
